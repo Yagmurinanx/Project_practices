@@ -1,0 +1,36 @@
+#container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(54, 167, 177);
+    color: aliceblue;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(32, 159, 159);
+}
+button:active{
+    background-color: rgb(54, 167, 177);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+   
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
