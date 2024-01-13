@@ -1,0 +1,29 @@
+body {
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5vw; 
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(84, 74, 87, 0.605);
+    width: 80%;
+    max-width: 500px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
